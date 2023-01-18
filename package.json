@@ -1,0 +1,21 @@
+{
+  "name": "upgradable-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "hardhat": "^2.12.6"
+  },
+  "dependencies": {
+    "@openzeppelin/hardhat-upgrades": "^1.22.0",
+    "dotenv": "^16.0.3",
+    "envconfig": "^1.0.2"
+  }
+}
