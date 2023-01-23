@@ -26,8 +26,8 @@ describe("box proxy contract unit test", function() {
 
     it("set value", async function(){
         const [user1] = await ethers.getSigners();
-        await box.connect(user1).updateValue(40);
-        expect(await box.getValue()).to.equal(40);
+        await box.connect(user1).updateValue(21);
+        expect(await box.getValue()).to.equal(20);
     })
 
 })
