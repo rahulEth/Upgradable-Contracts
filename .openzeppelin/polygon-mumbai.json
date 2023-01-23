@@ -44,12 +44,73 @@
       "address": "0x2D54fc351ede20A63dE4962082A5EE19388347DA",
       "txHash": "0x9bf2cb2fc4bbbb8f6647d4447d00f5a13c28270f4f8dff2277314e8a3b298f41",
       "kind": "transparent"
+    },
+    {
+      "address": "0xA2F42AE586c96Acb91b531042b572107487c09ca",
+      "txHash": "0xdbdd7e793d1e255a582ffba7ff76ef64db2632995362cc30c989a7242bce0052",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x24af4f80cdd445dC89D77e381baf4AE2df3eF5bE",
+      "txHash": "0x81be60d4f62975537feca55732c4791d93c1df4f4419fa5baf8b36efd390a524",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xc430b302b1b7c95563a28277e93f3869791d5Ff3",
+      "txHash": "0xdc4f0edb48f79cef02a7fa9bc1968cc77fce6b960cafb3bc7549d79c9c031117",
+      "kind": "transparent"
     }
   ],
   "impls": {
     "4bb5b49fd5ee882dc5a0bb5d259845f6294f909cb82eeb1132f8fed8e37a91e7": {
       "address": "0x44988A1Db4F87395231E9bb806Dd30985D9f6ee7",
       "txHash": "0xa2b23bc8f0b3c0d99da96d79be5651aa4e45a3eeb9afd41eaa16237f70f982a2",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Box",
+            "src": "contracts/Box.sol:8"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "df4d8d4109c50f02028cb2f870c27e30a9c39b4b699b46ad90bc30823d19a6c9": {
+      "address": "0x235a5557A0ef15E894890d8fe75806de77dF9575",
+      "txHash": "0x594df2b461071546770da829fe420e15d51be0b7e648842b65b1a811095409e1",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "BoxV2",
+            "src": "contracts/BoxV2.sol:8"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "36632382892b7eb24376d07e882e1db9484a10dd678619c27e232a4ca0ce90da": {
+      "address": "0x99243A37e24d42F4A1c8c09e5f3b4dc121d2a24B",
+      "txHash": "0xe94920d90bcbd80c763cdf9eee6d4384d6bb3aaa00dc7555889c9dcdd540ed0a",
       "layout": {
         "solcVersion": "0.8.17",
         "storage": [

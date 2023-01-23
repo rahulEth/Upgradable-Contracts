@@ -18,4 +18,8 @@ contract Box {
     function getValue() public view returns(uint){
         return value;
     }
+
+    function getValue1() public view returns(uint){
+        return value;
+    }
 }

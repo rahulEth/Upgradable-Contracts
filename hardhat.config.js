@@ -31,10 +31,11 @@ module.exports = {
   },
   etherscan: {
     apiKey: {
-      goerli: process.env.ETHERSCAN_API_KEY            
+      goerli: process.env.ETHERSCAN_API_KEY,            
+      polygonMumbai: process.env.POLYGON_API_KEY
     }
   },
-  defaultNetwork: "",
+  defaultNetwork: "hardhat",
   networks: {
     rinkeby: {
       url: `https://rinkeby.infura.io/v3/${INFURA_API_KEY}`,
